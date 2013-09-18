@@ -67,7 +67,6 @@ b {
   height: 125px;
   margin: 0 auto 1em;
   max-width: 125px;
-  position: relative;
   width: 100%;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
@@ -77,7 +76,7 @@ b {
 .gravatar {
   display: block;
   height: 125px;
-  margin: 0 auto;
+  margin: 0 auto 1em;
   position: relative;
   width: 125px;
 }
