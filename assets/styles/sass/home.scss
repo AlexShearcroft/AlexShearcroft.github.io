@@ -14,7 +14,7 @@
 }
 
 .gravatar-img {
-	border: 3px solid #FFF;
+	//border: 3px solid #FFF;
 	display: block;
 	height: 125px;
 	margin: 0 auto 1em;
@@ -27,11 +27,17 @@
 }
 
 .gravatar {
+	background: #FFF;
 	display: block;
-	height: 125px;
+	height: 131px;
 	margin: 0 auto 1em;
+	padding: 3px;
 	position: relative;
-	width: 125px;
+	width: 131px;
+
+	-webkit-border-radius: 50%;
+	   -moz-border-radius: 50%;
+			border-radius: 50%;
 
 	&:hover,
 	&:focus {

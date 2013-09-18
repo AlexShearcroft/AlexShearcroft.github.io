@@ -62,7 +62,6 @@ b {
 }
 
 .gravatar-img {
-  border: 3px solid #FFF;
   display: block;
   height: 125px;
   margin: 0 auto 1em;
@@ -74,11 +73,16 @@ b {
 }
 
 .gravatar {
+  background: #FFF;
   display: block;
-  height: 125px;
+  height: 131px;
   margin: 0 auto 1em;
+  padding: 3px;
   position: relative;
-  width: 125px;
+  width: 131px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
 }
 .gravatar:hover:before, .gravatar:focus:before {
   background-position: 0 0;
