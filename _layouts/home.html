@@ -1,0 +1,45 @@
+<!doctype html>
+<!--[if IE 7]><html lang="en"><![endif]-->
+<!--[if IE 8]><html lang="en"><![endif]-->
+<!--[if IE 9]><html lang="en"><![endif]-->
+<!--[if gt IE 9]><!--> <html lang="en"> <!--<![endif]-->
+<head>
+    <meta charset="utf-8" />
+    <title>Alex Shearcroft - Front-End Web Developer, Essex - Specialising in HTML and CSS</title>
+    <script src="assets/scripts/utils/modernizr.min.js"></script>
+    <script src="assets/scripts/jquery.js"></script>
+    <meta name="author" content="Alex Shearcroft" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/assets/styles/home.css" media="all" />
+</head>
+	<body>
+		<header class="main-header">
+			<div class="container">
+				<img class="gravatar" src="http://www.gravatar.com/avatar/d732de22ca38317ae3246315d49b66f4?s=144">
+				<h1 class="title">Alex Shearcroft <b>Front-End Web Developer</b></h1>
+			</div>
+		</header>
+		<main>
+			<div class="container">
+				<h2>Site under construction</h2>
+
+				<!--
+				<h2>About me</h2>
+				<p>Im Alex a 22 year old <b>Front-end developer</b> from <b>Essex</b> who specialises in working with mainly <b>HTML</b> and <b>CSS</b>. I have been in the industry for just over a year now working for a local marketing agency called <a href="">Storm Creative</a> as part of the <a href="">Storm Digital</a> team.</p>
+				<p>Blog - display at max 3 entries</p>
+				<p>Portfolio - will display island taverners and msfa</p>
+				<p>Contact - add at a later date</p>
+				<p>Socials - twitter, google+, github, coderwall</p>
+				-->
+			</div>
+		</main>
+		{% for post in site.posts limit:0 %}
+		<article>
+			<h2><a href="{{ BASE_PATH }}{{ post.url }}">{{post.title}}</a></h2>
+			<p><time datetime="{{ post.date | date: "%Y-%m-%d"  }}" pubdate="">{{ post.date | date_to_long_string }}</time></p>
+			{{post.content}}
+			<hr>
+		</article>
+		{% endfor %}
+	</body>
+</html>

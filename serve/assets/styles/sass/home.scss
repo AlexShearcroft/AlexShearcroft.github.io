@@ -1,0 +1,17 @@
+@import "fonts/fonts";
+
+* {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+html, body {
+    background: red;
+    margin: 0;
+}
+
+.home_container {
+    background: blue;
+    margin: 0 auto;
+}
