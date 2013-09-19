@@ -13,7 +13,7 @@ html, body {
 
 .container {
 	margin: 0 auto;
-	max-width: 103.75em;
+	max-width: 48em;
 	padding: 1em;
 	width: 100%;
 }
@@ -25,11 +25,40 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 p {
+	font-size: 1.125em;
 	line-height: 1.3;
 }
 
 b {
+	color: #B5985A;
 	font-weight: normal;
+}
+
+a {
+	color: #B5985A;
+
+	-webkit-transition: all 0.2s ease-in-out;
+	   -moz-transition: all 0.2s ease-in-out;
+			transition: all 0.2s ease-in-out;
+
+	&:hover,
+	&:focus {
+		color: darken(#B5985A,15%);
+	}
+}
+
+.main-header {
+	background: #000;
+	background-attach: fixed;
+	border-bottom: 4px solid #B5985A;
+	height: 320px;
+	line-height: 320px;
+	text-align: center;
+
+	.container {
+		display: inline-block;
+		vertical-align: middle;
+	}
 }
 
 .title {
@@ -39,7 +68,10 @@ b {
 	text-align: center;
 
 	b {
-		color: #B5985A;
 		display: block;
 	}
+}
+
+.main-content {
+	text-align: center;
 }

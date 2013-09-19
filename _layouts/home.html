@@ -23,27 +23,29 @@
 				<h1 class="title">Alex Shearcroft <b>Front-End Web Developer</b></h1>
 			</div>
 		</header>
-		<main>
+		<main class="main-content">
 			<div class="container">
-				<h2>Site under construction</h2>
-
-				<!--
 				<h2>About me</h2>
 				<p>Im Alex a 22 year old <b>Front-end developer</b> from <b>Essex</b> who specialises in working with mainly <b>HTML</b> and <b>CSS</b>. I have been in the industry for just over a year now working for a local marketing agency called <a href="">Storm Creative</a> as part of the <a href="">Storm Digital</a> team.</p>
-				<p>Blog - display at max 3 entries</p>
+				<p>I studied Bsc(Hons) Mulitmedia, animation and the web at Anglia Ruskin University where I worked on a few web related projects, and whilst studying there I found a passion for building websites and made me want to do what I do now.</p>
+				<p>Its not just websites where my interests lie, I am a very active person who loves everything sport related. I play sport for a variety of different teams such as cricket, football and darts.</p>
+				<p>Enough about me and more of what this website is about, as I am enhancing my skills as a developer I thought it be best to encorporate a blog showing what I have learned and best practices I have picked up. The posts will be related to HTML, CSS, Javascript and general web related topics for new comers like me getting started in the industry.</p>
+				<!--<hr>
+				<h2>Blog</h2>
+				{% for post in site.posts limit:0 %}
+				<article>
+					<h2><a href="{{ BASE_PATH }}{{ post.url }}">{{post.title}}</a></h2>
+					<p><time datetime="{{ post.date | date: "%Y-%m-%d"  }}" pubdate="">{{ post.date | date_to_long_string }}</time></p>
+					{{post.content}}
+					<hr>
+				</article>
+				{% endfor %}
+				
 				<p>Portfolio - will display island taverners and msfa</p>
 				<p>Contact - add at a later date</p>
 				<p>Socials - twitter, google+, github, coderwall</p>
 				-->
 			</div>
 		</main>
-		{% for post in site.posts limit:0 %}
-		<article>
-			<h2><a href="{{ BASE_PATH }}{{ post.url }}">{{post.title}}</a></h2>
-			<p><time datetime="{{ post.date | date: "%Y-%m-%d"  }}" pubdate="">{{ post.date | date_to_long_string }}</time></p>
-			{{post.content}}
-			<hr>
-		</article>
-		{% endfor %}
 	</body>
 </html>

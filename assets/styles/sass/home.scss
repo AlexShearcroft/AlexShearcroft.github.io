@@ -1,20 +1,6 @@
 @import "layout/structure";
 
-.main-header {
-	background: #000;
-	background-attach: fixed;
-	height: 320px;
-	line-height: 320px;
-
-	.container {
-		display: inline-block;
-		text-align: center;
-		vertical-align: middle;
-	}
-}
-
 .gravatar-img {
-	//border: 3px solid #FFF;
 	display: block;
 	height: 125px;
 	margin: 0 auto 1em;
