@@ -1,0 +1,60 @@
+/*
+
+CONFIG = STYLES VARIABLES
+-------------------------
+
+*/
+
+// Colours
+$primary-colour: #000;
+$secondary-colour: #B5985A;
+$font-colour: #000;
+
+// Base
+$base-font-family: arial;
+$base-font-size: 16px;
+$line-height-ratio: 1.4;
+
+// Grid margin gaps between each column
+$grid-margin: 8px;
+
+// Nav settings
+$nav-colour: #000;
+$nav-font-colour: #FFF;
+$nav-font-hover-colour: #B5985A;
+$nav-font: 'Montserrat';
+
+$nav-height: 40px !default;
+
+$subnav-toggle: true !default;
+$subnav-hover: false !default;
+
+// Headers
+$header-font: 'Montserrat_bold';
+$header-height: 300px;
+
+// Containers
+$container-width: 64em !default; // 1024px
+$wrapper-width: 100% !default;
+
+// Footer
+$footer-colour: #EDECE8;
+$footer-link-colour: #6F6660;
+$footer-height: 32px;
+
+/**
+
+// Carousel
+$carousel: true !default;
+$carousel-mask: false !default;
+
+// Gallery
+$gallery: true !default;
+$gallery-popup: true !default;
+
+// Errors
+$error-bgcolour: #ED1B24;
+$error-colour: #FFF;
+**/
+// Sprite 
+$sprite-width: 486px; // This is the size of the sprite.png

@@ -9,7 +9,7 @@ pygments: true
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
-title : Alex Shearcroft - Front End Web Developer
+title : Alex Shearcroft - Front-end web developer
 tagline: Digital Media blog
 
 author:
@@ -20,7 +20,7 @@ author:
     email: alexshearcroft@gmail.com
     twitter: shearzy90
     github: AlexShearcroft
-    google: alexshearcroft
+    google: 110754791789246277633
 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt 

@@ -1,0 +1,95 @@
+<!doctype html>
+<!--[if IE 7]><html lang="en"><![endif]-->
+<!--[if IE 8]><html lang="en"><![endif]-->
+<!--[if IE 9]><html lang="en"><![endif]-->
+<!--[if gt IE 9]><!--> <html lang="en"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <title>{{ page.title }}</title>
+        {% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
+        <meta name="author" content="{{ site.author.alex.name }}">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <script src="assets/scripts/utils/modernizr.min.js"></script>
+
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+        <link rel="icon" href="favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="/assets/styles/styles.css?v=1" type="text/css" media="all" />
+
+        <!-- atom & rss feed -->
+        <!--<link href="{{ BASE_PATH }}{{ site.JB.atom_path }}" type="application/atom+xml" rel="alternate" title="Sitewide ATOM Feed">
+        <link href="{{ BASE_PATH }}{{ site.JB.rss_path }}" type="application/rss+xml" rel="alternate" title="Sitewide RSS Feed">-->
+    </head>
+    <body>
+        {% include navigation %}
+
+        <div class="content">
+            {{ content }}
+        </div>
+        
+        <footer class="footer">
+            <div class="footer-content">
+                <p class="footer__info">&copy; {{ site.time | date: '%Y' }} {{ site.author.alex.name }} &ndash; Built with <a href="http://jekyllrb.com/" target="_blank" class="footer__link">Jekyll</a> and hosted on <a href="https://github.com/{{site.author.alex.github}}/AlexShearcroft.github.io" target="_blank" class="footer__link">GitHub</a>.
+                </p>
+                <ul class="footer-socials">
+                    <li class="footer-socials__type">
+                        <a href="https://twitter.com/{{site.author.alex.twitter}}" target="_blank" title="Twitter &ndash; {{site.author.alex.twitter}}" class="fa fa-twitter"></a>
+                    </li>
+                    <li class="footer-socials__type">
+                        <a href="https://plus.google.com/{{site.author.alex.google}}" target="_blank" title="Google+ &ndash; {{site.author.alex.google}}" class="fa fa-google-plus"></a>
+                    </li>
+                    <li class="footer-socials__type">
+                        <a href="https://github.com/{{site.author.alex.github}}" target="_blank" title="Github &ndash; {{site.author.alex.github}}" class="fa fa-github"></a>
+                    </li>
+                    
+                </ul>
+            </div>
+        </footer>
+
+        {% include JB/analytics %}
+        <script data-main="/assets/scripts/app/{{ page.script }}.js" src="/assets/scripts/require.min.js"></script>
+    </body>
+</html>
+<!--
+<!doctype html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Alex Shearcroft - Front-end web developer, Essex - Specialising in HTML and CSS</title>
+    <script src="assets/scripts/utils/modernizr.min.js"></script>
+    <script src="assets/scripts/jquery.js"></script>
+    <meta name="author" content="Alex Shearcroft" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/assets/styles/styles.css" media="all" />
+</head>
+    <body>
+        <header class="main-header">
+            <div class="container">
+                <span class="gravatar">
+                    <img class="gravatar-img" src="http://www.gravatar.com/avatar/d732de22ca38317ae3246315d49b66f4?s=144">
+                </span>
+                <h1 class="title">Alex Shearcroft <b>Front-End Web Developer</b></h1>
+            </div>
+        </header>
+        <main class="main-content">
+            <div class="container">
+                <h2>About me</h2>
+                <p>Im Alex a 23 year old <b>Front-end developer</b> from <b>Essex</b> who specialises in working with mainly <b>HTML</b> and <b>CSS</b>. I have been in the industry for just over a year now working for a local marketing agency called <a href="">Storm Creative</a> as part of the <a href="">Storm Digital</a> team.</p>
+                <p>I studied Bsc(Hons) Mulitmedia, animation and the web at Anglia Ruskin University where I worked on a few web related projects, and whilst studying there I found a passion for building websites and made me want to do what I do now.</p>
+                <p>Its not just websites where my interests lie, I am a very active person who loves everything sport related. I play sport for a variety of different teams such as cricket, football and darts.</p>
+                <p>Enough about me and more of what this website is about, as I am enhancing my skills as a developer I thought it be best to encorporate a blog showing what I have learned and best practices I have picked up. The posts will be related to HTML, CSS, Javascript and general web related topics for new comers like me getting started in the industry.</p>
+                <!--<hr>
+                <h2>Blog</h2>
+                
+                
+                <p>Portfolio - will display island taverners and msfa</p>
+                <p>Contact - add at a later date</p>
+                <p>Socials - twitter, google+, github, coderwall</p>
+
+            </div>
+        </main>
+    </body>
+</html>
+-->

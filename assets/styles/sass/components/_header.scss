@@ -1,0 +1,46 @@
+/**
+	
+	HEADER
+
+----------------*/
+
+.header {
+	background: $primary-colour;
+	border-bottom: 4px solid $secondary-colour;
+	line-height: $header-height;
+	padding: $nav-height 0 0;
+	text-align: center;
+}
+
+.header-content {
+	display: inline-block;
+	font-family: $header-font;
+	line-height: normal;
+	max-width: $container-width;
+	padding: 1em;
+	text-align: left;
+	text-transform: uppercase;
+	vertical-align: middle;
+	width: 100%;
+}
+
+.header__title {
+	color: #FFF;
+	display: inline-block;
+	font-size: 2em; // 32px
+	font-weight: normal;
+	line-height: 1.2;
+	vertical-align: middle;
+
+	b {
+		color: $secondary-colour;
+		display: block;
+		font-weight: normal;
+	}
+}
+
+.header__info {
+	color: #FFF;
+	font-size: 1.5em; // 24px
+	margin: 0;
+}

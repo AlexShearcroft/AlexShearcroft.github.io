@@ -1,0 +1,16 @@
+<nav class="nav">
+	<ul class="nav-links">
+		{% if page.page_title == 'home' %}
+			<li class="active">
+				<a href="/">Home</a>
+			</li>
+		{% else page.url == page_title %}
+			<li>
+				<a href="/">Home</a>
+			</li>
+		{% endif %}
+	{% assign pages_list = site.pages %}
+	{% assign group = 'navigation' %}
+		{% include pages_list %}
+	</ul>
+</nav>
