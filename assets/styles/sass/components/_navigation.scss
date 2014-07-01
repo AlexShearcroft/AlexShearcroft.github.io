@@ -5,39 +5,82 @@
 -------------------*/
 
 .nav {
-	//background: $nav-colour;
+	background: $nav-colour;
 	margin: 0 auto;
 	max-width: $container-width;
+	overflow: hidden;
 	position: relative;
+
+	@include bp(tablet) {
+		background: none;
+		overflow: visible;
+	}
+}
+
+.nav__icon {
+	color: $nav_icon-colour;
+	display: inline-block;
+	float: right;
+	font-size: 1.5em;
+	margin: 16px;
+	text-decoration: none;
+
+	@include bp(tablet) {
+		display: none;
+	}
+}
+
+.nav__icon--active {
+	color: $nav_icon-active-colour;
 }
 
 .nav-links {
-	letter-spacing: -0.32em;
-	line-height: $nav-height;
+	background: $primary-colour;
+	border-bottom: 2px solid $subnav-colour;
+	clear: right;
+	display: none;
 	list-style: none;
 	margin: 0;
-	padding: 0 1em;
-	position: absolute;
-	right: 0;
-	text-align: right;
-	top: 0;
+	padding: 0.25em 0 0.5em;
+
+	@include bp(tablet) {
+		background: $primary-colour;
+		border-bottom: none;
+		display: block;
+		letter-spacing: -0.32em;
+		line-height: $nav-height;
+		margin: 0;
+		padding: 0 1em;
+		position: absolute;
+		right: 0;
+		text-align: right;
+		top: 0;
+	}
 
 	li {
-		border-top: 2px solid transparent;
-		display: inline-block;
-		letter-spacing: normal;
-		margin-left: 1.5em; // 24px
-		vertical-align: middle;
-
-		&:first-child {
-			margin: 0;
-		}
+		display: block;
+		padding: 0.25em 1em;
 
 		&.active {
-			border-top: 2px solid $nav-font-hover-colour;
-
 			a {
 				color: $nav-font-hover-colour;
+			}
+		}
+
+		@include bp(tablet) {
+			border-top: 2px solid transparent;
+			display: inline-block;
+			letter-spacing: normal;
+			margin-left: 1.5em; // 24px
+			padding: 0;
+			vertical-align: middle;
+
+			&:first-child {
+				margin: 0;
+			}
+
+			&.active {
+				border-top: 2px solid $nav-font-hover-colour;
 			}
 		}
 	}
@@ -45,12 +88,16 @@
 	a {
 		color: $nav-font-colour;
 		font-family: $nav-font;
-		font-size: 0.875em;
+		font-size: 1em;
 		letter-spacing: -0.01rem;
 		text-transform: uppercase;
 		text-decoration: none;
 
 		@include transition(0.3s ease-in-out);
+
+		@include bp(tablet) {
+			font-size: 0.875em;
+		}
 
 		&:hover {
 			color: $nav-font-hover-colour;

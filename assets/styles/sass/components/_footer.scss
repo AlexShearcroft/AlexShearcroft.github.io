@@ -10,15 +10,24 @@
 
 .footer-content {
 	letter-spacing: -0.32em;
-	line-height: $footer-height;
 	margin: auto;
 	max-width: $container-width;
-	padding: 1em;
+	padding: 1em 2.5em;
+
+	@include bp(tablet) {
+		line-height: $footer-height;
+		padding: 1em;
+	}
 }
 
 .footer__info {
 	font-size: 0.75em;
-	margin: 0;
+	margin-bottom: 1.5em;
+
+	@include bp(tablet) {
+		margin: 0;
+		width: 75%;
+	}
 }
 
 .footer__link {
@@ -36,17 +45,27 @@
 
 .footer__info,
 .footer-socials {
-	display: inline-block;
+	display: block;
 	letter-spacing: normal;
-	vertical-align: middle;
-	width: 50%;
+	text-align: center;
+
+	@include bp(tablet) {
+		display: inline-block;
+		text-align: left;
+		vertical-align: middle;
+	}
 }
 
 .footer-socials {
 	list-style: none;
 	margin: 0;
 	padding: 0;
-	text-align: right;
+	
+
+	@include bp(tablet) {
+		text-align: right;
+		width: 25%;
+	}
 }
 
 .footer-socials__type {

@@ -1,5 +1,6 @@
 <nav class="nav">
-	<ul class="nav-links">
+	<a href="#" class="fa fa-bars nav__icon js-toggle" data-toggle="nav"></a>
+	<ul class="nav-links" id="js-nav">
 		{% if page.page_title == 'home' %}
 			<li class="active">
 				<a href="/">Home</a>

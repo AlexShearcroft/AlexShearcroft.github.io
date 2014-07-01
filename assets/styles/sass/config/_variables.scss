@@ -8,7 +8,9 @@ CONFIG = STYLES VARIABLES
 // Colours
 $primary-colour: #000;
 $secondary-colour: #B5985A;
-$font-colour: #000;
+$font-colour: #4C4C4C;
+
+$body-bg: #F5F4F1;
 
 // Base
 $base-font-family: arial;
@@ -26,16 +28,21 @@ $nav-font: 'Montserrat';
 
 $nav-height: 40px !default;
 
-$subnav-toggle: true !default;
-$subnav-hover: false !default;
+$subnav-colour: #B5985A;
+
+$nav_icon-colour: #FFF;
+$nav_icon-active-colour: #B5985A;
 
 // Headers
-$header-font: 'Montserrat_bold';
+$header-font: 'Montserrat';
 $header-height: 300px;
 
 // Containers
 $container-width: 64em !default; // 1024px
 $wrapper-width: 100% !default;
+
+// Titles
+$title-font: 'Montserrat';
 
 // Footer
 $footer-colour: #EDECE8;

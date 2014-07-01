@@ -7,9 +7,13 @@
 .header {
 	background: $primary-colour;
 	border-bottom: 4px solid $secondary-colour;
-	line-height: $header-height;
-	padding: $nav-height 0 0;
+	padding-bottom: 2em;
 	text-align: center;
+
+	@include bp(tablet) {
+		line-height: $header-height;
+		padding: $nav-height 0 0;
+	}
 }
 
 .header-content {

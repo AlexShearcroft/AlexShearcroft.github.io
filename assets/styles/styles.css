@@ -2223,48 +2223,132 @@ MIXIN = RETINA
 -------------------*/
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/components\/_navigation\.scss}line{font-family:\000037}}
 .nav {
+  background: black;
   margin: 0 auto;
   max-width: 64em;
+  overflow: hidden;
   position: relative;
+  /*
+   * Examples of other breakpoints we could add:
+   *
+   * $bp-kindle: "(min-width: 569px)";
+   * $bp-ipadport: "(min-width: 768px)";
+   * $bp-ipadland: "(min-width: 1024px)";
+   * $bp-desktop: "(min-width: 1025px)";
+   */
+}
+@media (min-width: 569px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/components\/_navigation\.scss}line{font-family:\000037}}
+  .nav {
+    background: none;
+    overflow: visible;
+  }
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/components\/_navigation\.scss}line{font-family:\0000314}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/components\/_navigation\.scss}line{font-family:\0000320}}
+.nav__icon {
+  color: white;
+  display: inline-block;
+  float: right;
+  font-size: 1.5em;
+  margin: 16px;
+  text-decoration: none;
+  /*
+   * Examples of other breakpoints we could add:
+   *
+   * $bp-kindle: "(min-width: 569px)";
+   * $bp-ipadport: "(min-width: 768px)";
+   * $bp-ipadland: "(min-width: 1024px)";
+   * $bp-desktop: "(min-width: 1025px)";
+   */
+}
+@media (min-width: 569px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/components\/_navigation\.scss}line{font-family:\0000320}}
+  .nav__icon {
+    display: none;
+  }
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/components\/_navigation\.scss}line{font-family:\0000333}}
+.nav__icon--active {
+  color: #b5985a;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/components\/_navigation\.scss}line{font-family:\0000337}}
 .nav-links {
-  letter-spacing: -0.32em;
-  line-height: 40px;
+  background: black;
+  border-bottom: 2px solid #b5985a;
+  clear: right;
+  display: none;
   list-style: none;
   margin: 0;
-  padding: 0 1em;
-  position: absolute;
-  right: 0;
-  text-align: right;
-  top: 0;
+  padding: 0.25em 0 0.5em;
+  /*
+   * Examples of other breakpoints we could add:
+   *
+   * $bp-kindle: "(min-width: 569px)";
+   * $bp-ipadport: "(min-width: 768px)";
+   * $bp-ipadland: "(min-width: 1024px)";
+   * $bp-desktop: "(min-width: 1025px)";
+   */
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/components\/_navigation\.scss}line{font-family:\0000325}}
+@media (min-width: 569px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/components\/_navigation\.scss}line{font-family:\0000337}}
+  .nav-links {
+    background: black;
+    border-bottom: none;
+    display: block;
+    letter-spacing: -0.32em;
+    line-height: 40px;
+    margin: 0;
+    padding: 0 1em;
+    position: absolute;
+    right: 0;
+    text-align: right;
+    top: 0;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/components\/_navigation\.scss}line{font-family:\0000360}}
 .nav-links li {
-  border-top: 2px solid transparent;
-  display: inline-block;
-  letter-spacing: normal;
-  margin-left: 1.5em;
-  vertical-align: middle;
+  display: block;
+  padding: 0.25em 1em;
+  /*
+   * Examples of other breakpoints we could add:
+   *
+   * $bp-kindle: "(min-width: 569px)";
+   * $bp-ipadport: "(min-width: 768px)";
+   * $bp-ipadland: "(min-width: 1024px)";
+   * $bp-desktop: "(min-width: 1025px)";
+   */
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/components\/_navigation\.scss}line{font-family:\0000332}}
-.nav-links li:first-child {
-  margin: 0;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/components\/_navigation\.scss}line{font-family:\0000336}}
-.nav-links li.active {
-  border-top: 2px solid #b5985a;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/components\/_navigation\.scss}line{font-family:\0000339}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/components\/_navigation\.scss}line{font-family:\0000365}}
 .nav-links li.active a {
   color: #b5985a;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/components\/_navigation\.scss}line{font-family:\0000345}}
+@media (min-width: 569px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/components\/_navigation\.scss}line{font-family:\0000360}}
+  .nav-links li {
+    border-top: 2px solid transparent;
+    display: inline-block;
+    letter-spacing: normal;
+    margin-left: 1.5em;
+    padding: 0;
+    vertical-align: middle;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/components\/_navigation\.scss}line{font-family:\0000378}}
+  .nav-links li:first-child {
+    margin: 0;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/components\/_navigation\.scss}line{font-family:\0000382}}
+  .nav-links li.active {
+    border-top: 2px solid #b5985a;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/components\/_navigation\.scss}line{font-family:\0000388}}
 .nav-links a {
   color: white;
   font-family: "Montserrat";
-  font-size: 0.875em;
+  font-size: 1em;
   letter-spacing: -0.01rem;
   text-transform: uppercase;
   text-decoration: none;
@@ -2273,8 +2357,22 @@ MIXIN = RETINA
   -ms-transition: 0.3s ease-in-out;
   -o-transition: 0.3s ease-in-out;
   transition: 0.3s ease-in-out;
+  /*
+   * Examples of other breakpoints we could add:
+   *
+   * $bp-kindle: "(min-width: 569px)";
+   * $bp-ipadport: "(min-width: 768px)";
+   * $bp-ipadland: "(min-width: 1024px)";
+   * $bp-desktop: "(min-width: 1025px)";
+   */
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/components\/_navigation\.scss}line{font-family:\0000355}}
+@media (min-width: 569px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/components\/_navigation\.scss}line{font-family:\0000388}}
+  .nav-links a {
+    font-size: 0.875em;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/components\/_navigation\.scss}line{font-family:\00003102}}
 .nav-links a:hover {
   color: #b5985a;
 }
@@ -2288,15 +2386,29 @@ MIXIN = RETINA
 .header {
   background: black;
   border-bottom: 4px solid #b5985a;
-  line-height: 300px;
-  padding: 40px 0 0;
+  padding-bottom: 2em;
   text-align: center;
+  /*
+   * Examples of other breakpoints we could add:
+   *
+   * $bp-kindle: "(min-width: 569px)";
+   * $bp-ipadport: "(min-width: 768px)";
+   * $bp-ipadland: "(min-width: 1024px)";
+   * $bp-desktop: "(min-width: 1025px)";
+   */
+}
+@media (min-width: 569px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/components\/_header\.scss}line{font-family:\000037}}
+  .header {
+    line-height: 300px;
+    padding: 40px 0 0;
+  }
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/components\/_header\.scss}line{font-family:\0000315}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/components\/_header\.scss}line{font-family:\0000319}}
 .header-content {
   display: inline-block;
-  font-family: "Montserrat_bold";
+  font-family: "Montserrat";
   line-height: normal;
   max-width: 64em;
   padding: 1em;
@@ -2306,7 +2418,7 @@ MIXIN = RETINA
   width: 100%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/components\/_header\.scss}line{font-family:\0000327}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/components\/_header\.scss}line{font-family:\0000331}}
 .header__title {
   color: #FFF;
   display: inline-block;
@@ -2315,18 +2427,68 @@ MIXIN = RETINA
   line-height: 1.2;
   vertical-align: middle;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/components\/_header\.scss}line{font-family:\0000335}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/components\/_header\.scss}line{font-family:\0000339}}
 .header__title b {
   color: #b5985a;
   display: block;
   font-weight: normal;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/components\/_header\.scss}line{font-family:\0000342}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/components\/_header\.scss}line{font-family:\0000346}}
 .header__info {
   color: #FFF;
   font-size: 1.5em;
   margin: 0;
+}
+
+/**
+	
+	CONTENT
+
+---------------*/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/components\/_content\.scss}line{font-family:\000037}}
+.content {
+  margin: auto;
+  max-width: 64em;
+  padding: 1em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/components\/_content\.scss}line{font-family:\0000313}}
+.content__title {
+  color: black;
+  font-family: "Montserrat";
+  font-size: 1.25em;
+  font-weight: normal;
+  letter-spacing: -0.01rem;
+  text-transform: uppercase;
+  /*
+   * Examples of other breakpoints we could add:
+   *
+   * $bp-kindle: "(min-width: 569px)";
+   * $bp-ipadport: "(min-width: 768px)";
+   * $bp-ipadland: "(min-width: 1024px)";
+   * $bp-desktop: "(min-width: 1025px)";
+   */
+}
+@media (min-width: 569px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/components\/_content\.scss}line{font-family:\0000313}}
+  .content__title {
+    font-size: 24px;
+  }
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/components\/_content\.scss}line{font-family:\0000326}}
+.content__link {
+  color: #b5985a;
+  -webkit-transition: 0.3s ease-in-out;
+  -moz-transition: 0.3s ease-in-out;
+  -ms-transition: 0.3s ease-in-out;
+  -o-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/components\/_content\.scss}line{font-family:\0000331}}
+.content__link:hover {
+  color: #4c4c4c;
 }
 
 /**
@@ -2342,19 +2504,48 @@ MIXIN = RETINA
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/components\/_footer\.scss}line{font-family:\0000311}}
 .footer-content {
   letter-spacing: -0.32em;
-  line-height: 32px;
   margin: auto;
   max-width: 64em;
-  padding: 1em;
+  padding: 1em 2.5em;
+  /*
+   * Examples of other breakpoints we could add:
+   *
+   * $bp-kindle: "(min-width: 569px)";
+   * $bp-ipadport: "(min-width: 768px)";
+   * $bp-ipadland: "(min-width: 1024px)";
+   * $bp-desktop: "(min-width: 1025px)";
+   */
+}
+@media (min-width: 569px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/components\/_footer\.scss}line{font-family:\0000311}}
+  .footer-content {
+    line-height: 32px;
+    padding: 1em;
+  }
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/components\/_footer\.scss}line{font-family:\0000319}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/components\/_footer\.scss}line{font-family:\0000323}}
 .footer__info {
   font-size: 0.75em;
-  margin: 0;
+  margin-bottom: 1.5em;
+  /*
+   * Examples of other breakpoints we could add:
+   *
+   * $bp-kindle: "(min-width: 569px)";
+   * $bp-ipadport: "(min-width: 768px)";
+   * $bp-ipadland: "(min-width: 1024px)";
+   * $bp-desktop: "(min-width: 1025px)";
+   */
+}
+@media (min-width: 569px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/components\/_footer\.scss}line{font-family:\0000323}}
+  .footer__info {
+    margin: 0;
+    width: 75%;
+  }
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/components\/_footer\.scss}line{font-family:\0000324}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/components\/_footer\.scss}line{font-family:\0000333}}
 .footer__link {
   color: #6f6660;
   font-weight: bold;
@@ -2365,39 +2556,69 @@ MIXIN = RETINA
   -o-transition: 0.3s ease-in-out;
   transition: 0.3s ease-in-out;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/components\/_footer\.scss}line{font-family:\0000331}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/components\/_footer\.scss}line{font-family:\0000340}}
 .footer__link:hover {
   color: #383431;
   text-decoration: underline;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/components\/_footer\.scss}line{font-family:\0000338}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/components\/_footer\.scss}line{font-family:\0000347}}
 .footer__info,
 .footer-socials {
-  display: inline-block;
+  display: block;
   letter-spacing: normal;
-  vertical-align: middle;
-  width: 50%;
+  text-align: center;
+  /*
+   * Examples of other breakpoints we could add:
+   *
+   * $bp-kindle: "(min-width: 569px)";
+   * $bp-ipadport: "(min-width: 768px)";
+   * $bp-ipadland: "(min-width: 1024px)";
+   * $bp-desktop: "(min-width: 1025px)";
+   */
+}
+@media (min-width: 569px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/components\/_footer\.scss}line{font-family:\0000347}}
+  .footer__info,
+  .footer-socials {
+    display: inline-block;
+    text-align: left;
+    vertical-align: middle;
+  }
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/components\/_footer\.scss}line{font-family:\0000345}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/components\/_footer\.scss}line{font-family:\0000359}}
 .footer-socials {
   list-style: none;
   margin: 0;
   padding: 0;
-  text-align: right;
+  /*
+   * Examples of other breakpoints we could add:
+   *
+   * $bp-kindle: "(min-width: 569px)";
+   * $bp-ipadport: "(min-width: 768px)";
+   * $bp-ipadland: "(min-width: 1024px)";
+   * $bp-desktop: "(min-width: 1025px)";
+   */
+}
+@media (min-width: 569px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/components\/_footer\.scss}line{font-family:\0000359}}
+  .footer-socials {
+    text-align: right;
+    width: 25%;
+  }
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/components\/_footer\.scss}line{font-family:\0000352}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/components\/_footer\.scss}line{font-family:\0000371}}
 .footer-socials__type {
   display: inline-block;
   margin-left: 0.75em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/components\/_footer\.scss}line{font-family:\0000356}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/components\/_footer\.scss}line{font-family:\0000375}}
 .footer-socials__type:first-child {
   margin: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/components\/_footer\.scss}line{font-family:\0000360}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/components\/_footer\.scss}line{font-family:\0000379}}
 .footer-socials__type a {
   color: #6f6660;
   font-size: 1.25em;
@@ -2408,7 +2629,7 @@ MIXIN = RETINA
   -o-transition: 0.3s ease-in-out;
   transition: 0.3s ease-in-out;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/components\/_footer\.scss}line{font-family:\0000367}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/components\/_footer\.scss}line{font-family:\0000386}}
 .footer-socials__type a:hover {
   color: #383431;
 }
@@ -2474,23 +2695,25 @@ MIXIN = RETINA
   border-radius: 50%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/layout\/_structure\.scss}line{font-family:\0000322}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/layout\/_structure\.scss}line{font-family:\0000323}}
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/layout\/_structure\.scss}line{font-family:\0000327}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/layout\/_structure\.scss}line{font-family:\0000328}}
 html,
 body {
+  background: #f5f4f1;
+  color: #4c4c4c;
   font: 1em / 1.4 arial;
   margin: 0;
   -webkit-text-size-adjust: none;
-  -webkit-font-smoothing: antialiased;
+  -webkit-font-smoothing: subpixel-antialiased;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/layout\/_structure\.scss}line{font-family:\0000335}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/layout\/_structure\.scss}line{font-family:\0000338}}
 .container {
   margin: auto;
   max-width: 64em;

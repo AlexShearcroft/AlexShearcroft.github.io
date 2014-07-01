@@ -15,6 +15,7 @@
 
 @import "components/navigation";
 @import "components/header";
+@import "components/content";
 @import "components/footer";
 
 @import "elements/gravatar";
@@ -25,11 +26,13 @@
 
 html,
 body {
+	background: $body-bg;
+	color: $font-colour;
 	font: #{($base-font-size / 16px) * 1em} / #{$line-height-ratio} $base-font-family;
 	margin: 0;
 
 	-webkit-text-size-adjust: none; // stops the text from becoming bigger on orientation on iPhone / iPad devices
-	  -webkit-font-smoothing: antialiased; // makes the font smooth on webkit devices
+	  -webkit-font-smoothing: subpixel-antialiased; // makes the font smooth on webkit devices
 }
 
 .container {
