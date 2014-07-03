@@ -1,13 +1,85 @@
 ---
 layout: base
-title: Blog
+title: Blog posts - Alex Shearcroft &ndash; Front-end web developer
 page_title: Blog
+description: Test
 group: navigation
+script: main
 ---
-{% include JB/setup %}
-
-<h2>All Pages</h2>
-<ul>
-{% assign pages_list = site.pages %}
-{% include pages_list %}
-</ul>
+<header class="header">
+    <div class="header-content">
+        <h1 class="header__title">Front-end developer <b>blog posts</b></h1>
+    </div>
+</header>
+<main class="content">
+    <div class="blog-posts grid">
+        {% for post in site.posts %}
+        <article class="blog-box grid__third">
+            <a href="{{ BASE_PATH }}{{ post.url }}" class="blog-box-link">
+                <div class="blog-box-content blog-box-content--{{post.category}}">
+                    <h3 class="blog-box__title">{{post.title}}</h3>
+                    <p class="blog-box__post">
+                        <b class="blog-box__post-date"><time datetime="{{post.date | date: '%d/%m/%Y'}}">{{post.date | date_to_long_string}}</time></b>
+                        <b class="blog-box__post-cat">{{post.category}}</b>
+                    </p>
+                </div>
+            </a>
+        </article>
+        {% endfor %}
+        <article class="blog-box grid__third">
+            <a href="#" class="blog-box-link">
+                <div class="blog-box-content blog-box-content--html">
+                    <h3 class="blog-box__title">Blog post title example could be this long</h3>
+                    <p class="blog-box__post">
+                        <b class="blog-box__post-date">03/07/14</b>
+                        <b class="blog-box__post-cat">HTML</b>
+                    </p>
+                </div>
+            </a>
+        </article>
+        <article class="blog-box grid__third">
+            <a href="#" class="blog-box-link">
+                <div class="blog-box-content blog-box-content--jscript">
+                    <h3 class="blog-box__title">Blog post title example could be this long</h3>
+                    <p class="blog-box__post">
+                        <b class="blog-box__post-date">03/07/14</b>
+                        <b class="blog-box__post-cat">Javascript</b>
+                    </p>
+                </div>
+            </a>
+        </article>
+        <article class="blog-box grid__third">
+            <a href="#" class="blog-box-link">
+                <div class="blog-box-content">
+                    <h3 class="blog-box__title">Blog post title example could be this long</h3>
+                    <p class="blog-box__post">
+                        <b class="blog-box__post-date">03/07/14</b>
+                        <b class="blog-box__post-cat">Generic</b>
+                    </p>
+                </div>
+            </a>
+        </article>
+        <article class="blog-box grid__third">
+            <a href="#" class="blog-box-link">
+                <div class="blog-box-content">
+                    <h3 class="blog-box__title">Blog post title example could be this long</h3>
+                    <p class="blog-box__post">
+                        <b class="blog-box__post-date">03/07/14</b>
+                        <b class="blog-box__post-cat">Generic</b>
+                    </p>
+                </div>
+            </a>
+        </article>
+        <article class="blog-box grid__third">
+            <a href="#" class="blog-box-link">
+                <div class="blog-box-content blog-box-content--css">
+                    <h3 class="blog-box__title">Blog post title example could be this long</h3>
+                    <p class="blog-box__post">
+                        <b class="blog-box__post-date">03/07/14</b>
+                        <b class="blog-box__post-cat">CSS</b>
+                    </p>
+                </div>
+            </a>
+        </article>
+    </div>
+</main>

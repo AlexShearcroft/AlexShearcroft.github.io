@@ -2216,6 +2216,321 @@ MIXIN = RETINA
 --------------
 
 */
+/*
+
+FRAMEWORK = GRIDS 
+-----------------
+This is the base framework for our grid layout. 
+Please try not touch this file and change styles as this will affect how the framework will behave.
+
+If you need to change the way a sector is styled then add a class and style that class.
+
+*/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/framework\/_grid\.scss}line{font-family:\0000313}}
+.grid {
+  letter-spacing: -0.32em;
+  margin: 0;
+  padding: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/framework\/_grid\.scss}line{font-family:\0000320}}
+[class*='grid__'] {
+  display: block;
+  letter-spacing: normal;
+  list-style: none;
+  padding: 8px;
+  text-align: center;
+  vertical-align: top;
+  width: 100%;
+  /*
+   * Examples of other breakpoints we could add:
+   *
+   * $bp-kindle: "(min-width: 569px)";
+   * $bp-ipadport: "(min-width: 768px)";
+   * $bp-ipadland: "(min-width: 1024px)";
+   * $bp-desktop: "(min-width: 1025px)";
+   */
+}
+@media (min-width: 960px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/framework\/_grid\.scss}line{font-family:\0000320}}
+  [class*='grid__'] {
+    display: inline-block;
+  }
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/framework\/_grid\.scss}line{font-family:\0000335}}
+.grid__half {
+  /*
+   * Examples of other breakpoints we could add:
+   *
+   * $bp-kindle: "(min-width: 569px)";
+   * $bp-ipadport: "(min-width: 768px)";
+   * $bp-ipadland: "(min-width: 1024px)";
+   * $bp-desktop: "(min-width: 1025px)";
+   */
+}
+@media (min-width: 960px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/framework\/_grid\.scss}line{font-family:\0000335}}
+  .grid__half {
+    width: 50%;
+  }
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/framework\/_grid\.scss}line{font-family:\0000343}}
+.grid__third {
+  /*
+   * Examples of other breakpoints we could add:
+   *
+   * $bp-kindle: "(min-width: 569px)";
+   * $bp-ipadport: "(min-width: 768px)";
+   * $bp-ipadland: "(min-width: 1024px)";
+   * $bp-desktop: "(min-width: 1025px)";
+   */
+}
+@media (min-width: 960px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/framework\/_grid\.scss}line{font-family:\0000343}}
+  .grid__third {
+    width: 33.33333%;
+  }
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/framework\/_grid\.scss}line{font-family:\0000350}}
+.grid__two-third {
+  /*
+   * Examples of other breakpoints we could add:
+   *
+   * $bp-kindle: "(min-width: 569px)";
+   * $bp-ipadport: "(min-width: 768px)";
+   * $bp-ipadland: "(min-width: 1024px)";
+   * $bp-desktop: "(min-width: 1025px)";
+   */
+}
+@media (min-width: 960px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/framework\/_grid\.scss}line{font-family:\0000350}}
+  .grid__two-third {
+    width: 66.66666%;
+  }
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/framework\/_grid\.scss}line{font-family:\0000358}}
+.grid__quarter {
+  /*
+   * Examples of other breakpoints we could add:
+   *
+   * $bp-kindle: "(min-width: 569px)";
+   * $bp-ipadport: "(min-width: 768px)";
+   * $bp-ipadland: "(min-width: 1024px)";
+   * $bp-desktop: "(min-width: 1025px)";
+   */
+}
+@media (min-width: 960px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/framework\/_grid\.scss}line{font-family:\0000358}}
+  .grid__quarter {
+    width: 25%;
+  }
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/framework\/_grid\.scss}line{font-family:\0000365}}
+.grid__three-quarter {
+  /*
+   * Examples of other breakpoints we could add:
+   *
+   * $bp-kindle: "(min-width: 569px)";
+   * $bp-ipadport: "(min-width: 768px)";
+   * $bp-ipadland: "(min-width: 1024px)";
+   * $bp-desktop: "(min-width: 1025px)";
+   */
+}
+@media (min-width: 960px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/framework\/_grid\.scss}line{font-family:\0000365}}
+  .grid__three-quarter {
+    width: 75%;
+  }
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/framework\/_grid\.scss}line{font-family:\0000373}}
+.grid__fifth {
+  /*
+   * Examples of other breakpoints we could add:
+   *
+   * $bp-kindle: "(min-width: 569px)";
+   * $bp-ipadport: "(min-width: 768px)";
+   * $bp-ipadland: "(min-width: 1024px)";
+   * $bp-desktop: "(min-width: 1025px)";
+   */
+}
+@media (min-width: 960px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/framework\/_grid\.scss}line{font-family:\0000373}}
+  .grid__fifth {
+    width: 20%;
+  }
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/framework\/_grid\.scss}line{font-family:\0000380}}
+.grid__two-fifth {
+  /*
+   * Examples of other breakpoints we could add:
+   *
+   * $bp-kindle: "(min-width: 569px)";
+   * $bp-ipadport: "(min-width: 768px)";
+   * $bp-ipadland: "(min-width: 1024px)";
+   * $bp-desktop: "(min-width: 1025px)";
+   */
+}
+@media (min-width: 960px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/framework\/_grid\.scss}line{font-family:\0000380}}
+  .grid__two-fifth {
+    width: 40%;
+  }
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/framework\/_grid\.scss}line{font-family:\0000387}}
+.grid__three-fifth {
+  /*
+   * Examples of other breakpoints we could add:
+   *
+   * $bp-kindle: "(min-width: 569px)";
+   * $bp-ipadport: "(min-width: 768px)";
+   * $bp-ipadland: "(min-width: 1024px)";
+   * $bp-desktop: "(min-width: 1025px)";
+   */
+}
+@media (min-width: 960px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/framework\/_grid\.scss}line{font-family:\0000387}}
+  .grid__three-fifth {
+    width: 60%;
+  }
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/framework\/_grid\.scss}line{font-family:\0000394}}
+.grid__four-fifth {
+  /*
+   * Examples of other breakpoints we could add:
+   *
+   * $bp-kindle: "(min-width: 569px)";
+   * $bp-ipadport: "(min-width: 768px)";
+   * $bp-ipadland: "(min-width: 1024px)";
+   * $bp-desktop: "(min-width: 1025px)";
+   */
+}
+@media (min-width: 960px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/framework\/_grid\.scss}line{font-family:\0000394}}
+  .grid__four-fifth {
+    width: 80%;
+  }
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/framework\/_grid\.scss}line{font-family:\00003101}}
+.example {
+  background: #E8E8E8;
+  margin: 0;
+  padding: 0.5em;
+}
+
+/*
+	
+	<div class="grid">
+		<!-- FULL GRID -->
+		<div class="grid__full">
+			<p class="example">full</p>
+		</div>
+		<!-- HALF + HALF -->
+		<div class="grid__half">
+			<p class="example">half</p>
+		</div>
+		<div class="grid__half">
+			<p class="example">half</p>
+		</div>
+		<!-- QUARTER + QUARTER + HALF -->
+		<div class="grid__quarter">
+			<p class="example">quarter</p>
+		</div>
+		<div class="grid__quarter">
+			<p class="example">quarter</p>
+		</div>
+		<div class="grid__half">
+			<p class="example">half</p>
+		</div>
+		<!-- QUARTER + THREE QUARTERS -->
+		<div class="grid__three-quarter">
+			<p class="example">three quarters</p>
+		</div>
+		<div class="grid__quarter">
+			<p class="example">quarter</p>
+		</div>
+		<!-- THIRD + THIRD + THIRD -->
+		<div class="grid__third">
+			<p class="example">third</p>
+		</div>
+		<div class="grid__third">
+			<p class="example">third</p>
+		</div>
+		<div class="grid__third">
+			<p class="example">third</p>
+		</div>
+		<!-- THIRD + TWO THIRDS -->
+		<div class="grid__two-third">
+			<p class="example">two thirds</p>
+		</div>
+		<div class="grid__third">
+			<p class="example">third</p>
+		</div>
+		<!-- QUARTER + QUARTER + QUARTER + QUARTER -->
+		<div class="grid__quarter">
+			<p class="example">quarter</p>
+		</div>
+		<div class="grid__quarter">
+			<p class="example">quarter</p>
+		</div>
+		<div class="grid__quarter">
+			<p class="example">quarter</p>
+		</div>
+		<div class="grid__quarter">
+			<p class="example">quarter</p>
+		</div>
+		<!-- FIFTH + FIFTH + FIFTH + FIFTH + FIFTH -->
+		<div class="grid__fifth">
+			<p class="example">fifth</p>
+		</div>
+		<div class="grid__fifth">
+			<p class="example">fifth</p>
+		</div>
+		<div class="grid__fifth">
+			<p class="example">fifth</p>
+		</div>
+		<div class="grid__fifth">
+			<p class="example">fifth</p>
+		</div>
+		<div class="grid__fifth">
+			<p class="example">fifth</p>
+		</div>
+		<!-- TWO FIFTH + THREE FIFTH -->
+		<div class="grid__two-fifth">
+			<p class="example">two fifth</p>
+		</div>
+		<div class="grid__three-fifth">
+			<p class="example">three fifth</p>
+		</div>
+		<!-- FIFTH + FOUR FIFTH -->
+		<div class="grid__fifth">
+			<p class="example">fifth</p>
+		</div>
+		<div class="grid__four-fifth">
+			<p class="example">four fifths</p>
+		</div>
+		<!-- TWO FIFTH + FIFTH + TWO FIFTH -->
+		<div class="grid__two-fifth">
+			<p class="example">two fifth</p>
+		</div>
+		<div class="grid__fifth">
+			<p class="example">fifth</p>
+		</div>
+		<div class="grid__two-fifth">
+			<p class="example">two fifth</p>
+		</div>
+	</div>
+
+*/
 /**
 	
 	NAVIGATION
@@ -2451,15 +2766,35 @@ MIXIN = RETINA
   margin: auto;
   max-width: 64em;
   padding: 1em;
+  /*
+   * Examples of other breakpoints we could add:
+   *
+   * $bp-kindle: "(min-width: 569px)";
+   * $bp-ipadport: "(min-width: 768px)";
+   * $bp-ipadland: "(min-width: 1024px)";
+   * $bp-desktop: "(min-width: 1025px)";
+   */
+}
+@media (min-width: 569px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/components\/_content\.scss}line{font-family:\000037}}
+  .content {
+    padding-bottom: 3em;
+  }
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/components\/_content\.scss}line{font-family:\0000313}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/components\/_content\.scss}line{font-family:\0000317}}
+.content-info {
+  text-align: left;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/components\/_content\.scss}line{font-family:\0000321}}
 .content__title {
   color: black;
   font-family: "Montserrat";
   font-size: 1.25em;
   font-weight: normal;
   letter-spacing: -0.01rem;
+  text-align: left;
   text-transform: uppercase;
   /*
    * Examples of other breakpoints we could add:
@@ -2471,13 +2806,13 @@ MIXIN = RETINA
    */
 }
 @media (min-width: 569px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/components\/_content\.scss}line{font-family:\0000313}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/components\/_content\.scss}line{font-family:\0000321}}
   .content__title {
     font-size: 24px;
   }
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/components\/_content\.scss}line{font-family:\0000326}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/components\/_content\.scss}line{font-family:\0000335}}
 .content__link {
   color: #b5985a;
   -webkit-transition: 0.3s ease-in-out;
@@ -2486,7 +2821,7 @@ MIXIN = RETINA
   -o-transition: 0.3s ease-in-out;
   transition: 0.3s ease-in-out;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/components\/_content\.scss}line{font-family:\0000331}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/components\/_content\.scss}line{font-family:\0000340}}
 .content__link:hover {
   color: #4c4c4c;
 }
@@ -2634,6 +2969,137 @@ MIXIN = RETINA
   color: #383431;
 }
 
+/**
+
+	BLOG BOX
+
+---------------*/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/elements\/_blog-box\.scss}line{font-family:\000037}}
+.blog-posts {
+  margin: 0.5em -0.5em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/elements\/_blog-box\.scss}line{font-family:\0000311}}
+.blog-box {
+  padding: 0.5em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/elements\/_blog-box\.scss}line{font-family:\0000315}}
+.blog-box-link {
+  background: #FFF;
+  border: 1px solid #C8C8C8;
+  display: block;
+  text-decoration: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/elements\/_blog-box\.scss}line{font-family:\0000322}}
+.blog-box-content {
+  height: 170px;
+  padding: 1.5em;
+  position: relative;
+  -webkit-transition: 0.3s ease-in-out;
+  -moz-transition: 0.3s ease-in-out;
+  -ms-transition: 0.3s ease-in-out;
+  -o-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/elements\/_blog-box\.scss}line{font-family:\0000328}}
+.blog-box-content:hover {
+  -webkit-box-shadow: 3px 3px 6px #c8c8c8;
+  -moz-box-shadow: 3px 3px 6px #c8c8c8;
+  box-shadow: 3px 3px 6px #c8c8c8;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/elements\/_blog-box\.scss}line{font-family:\0000332}}
+.blog-box-content:before {
+  background: #4c4c4c;
+  content: '';
+  width: 5px;
+  position: absolute;
+  bottom: -1px;
+  left: -1px;
+  top: -1px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/elements\/_blog-box\.scss}line{font-family:\0000348}}
+.blog-box-content--css:hover .blog-box__title {
+  color: #b5985a;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/elements\/_blog-box\.scss}line{font-family:\0000353}}
+.blog-box-content--css:before {
+  background: #b5985a;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/elements\/_blog-box\.scss}line{font-family:\0000357}}
+.blog-box-content--css .blog-box__post-cat {
+  color: #b5985a;
+  text-transform: uppercase;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/elements\/_blog-box\.scss}line{font-family:\0000366}}
+.blog-box-content--html:hover .blog-box__title {
+  color: #a2a2a2;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/elements\/_blog-box\.scss}line{font-family:\0000371}}
+.blog-box-content--html:before {
+  background: #a2a2a2;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/elements\/_blog-box\.scss}line{font-family:\0000375}}
+.blog-box-content--html .blog-box__post-cat {
+  color: #a2a2a2;
+  text-transform: uppercase;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/elements\/_blog-box\.scss}line{font-family:\0000384}}
+.blog-box-content--jscript:hover .blog-box__title {
+  color: #927340;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/elements\/_blog-box\.scss}line{font-family:\0000389}}
+.blog-box-content--jscript:before {
+  background: #927340;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/elements\/_blog-box\.scss}line{font-family:\0000393}}
+.blog-box-content--jscript .blog-box__post-cat {
+  color: #927340;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/elements\/_blog-box\.scss}line{font-family:\0000398}}
+.blog-box__title {
+  color: #4c4c4c;
+  font-family: "Montserrat";
+  font-size: 1.125em;
+  font-weight: normal;
+  letter-spacing: -0.01rem;
+  margin: 0;
+  text-align: left;
+  -webkit-transition: 0.3s ease-in-out;
+  -moz-transition: 0.3s ease-in-out;
+  -ms-transition: 0.3s ease-in-out;
+  -o-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/elements\/_blog-box\.scss}line{font-family:\00003110}}
+.blog-box__post {
+  color: #4c4c4c;
+  font-size: 0.875em;
+  margin: 0;
+  overflow: hidden;
+  text-align: left;
+  position: absolute;
+  bottom: 16px;
+  left: 24px;
+  right: 24px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/elements\/_blog-box\.scss}line{font-family:\00003124}}
+.blog-box__post-cat {
+  float: right;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/elements\/_blog-box\.scss}line{font-family:\00003128}}
+.blog-box__post-date {
+  float: left;
+}
+
 /*-------------/
 	
 	GRAVATAR
@@ -2695,14 +3161,53 @@ MIXIN = RETINA
   border-radius: 50%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/layout\/_structure\.scss}line{font-family:\0000323}}
+/**
+	
+	HORIZONTAL RULE
+
+----------------------*/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/elements\/_hr\.scss}line{font-family:\000037}}
+.hr {
+  border: none;
+  display: block;
+  height: 2px;
+  margin: 1em auto;
+  width: 100%;
+  /*
+   * Examples of other breakpoints we could add:
+   *
+   * $bp-kindle: "(min-width: 569px)";
+   * $bp-ipadport: "(min-width: 768px)";
+   * $bp-ipadland: "(min-width: 1024px)";
+   * $bp-desktop: "(min-width: 1025px)";
+   */
+}
+@media (min-width: 569px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/elements\/_hr\.scss}line{font-family:\000037}}
+  .hr {
+    margin: 2.5em auto;
+    width: 50%;
+  }
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/elements\/_hr\.scss}line{font-family:\0000320}}
+.hr--grey {
+  background: #C8C8C8;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/elements\/_hr\.scss}line{font-family:\0000324}}
+.hr--gold {
+  background: #b5985a;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/framework\/_structure\.scss}line{font-family:\0000327}}
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/layout\/_structure\.scss}line{font-family:\0000328}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/framework\/_structure\.scss}line{font-family:\0000332}}
 html,
 body {
   background: #f5f4f1;
@@ -2713,7 +3218,7 @@ body {
   -webkit-font-smoothing: subpixel-antialiased;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/layout\/_structure\.scss}line{font-family:\0000338}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/framework\/_structure\.scss}line{font-family:\0000342}}
 .container {
   margin: auto;
   max-width: 64em;

@@ -15,9 +15,33 @@ script: main
     </div>
 </header>
 <main class="content">
-	<h2 class="content__title">About me</h2>
-    <p>A <b>Front-end web developer</b> from <b>Essex</b> who specialises working with mainly <b>HTML</b> and <b>CSS</b>. I have been in the web industry for nearly two years now working for a local marketing agency called <a href="http://www.stormcreative.co.uk/" target="_blank" class="content__link">Storm Creative</a> as part of the <a href="http://www.storm-digital.co.uk/" target="_blank" class="content__link">Storm Digital</a> team.</p>
-    <p>I studied <b>Bsc(Hons) Mulitmedia, animation and the web</b> at Anglia Ruskin University. Whilst there, I worked on a few web related projects for my degree where I found a passion for developing websites most interesting.</p>
-    <p>My other hobbies and interests lie primarily with anything sport related. I play for my local cricket team where I am vice captain, and also produced the club <a href="http://www.islandtavernerscc.co.uk" target="_blank" class="content__link">website</a>.</p>
-    <p>This website will be showcasing my skills as a developer and what I have learnt along the way. The best way to develop my skills is to encorporate a blog. The posts will be related to <b>HTML</b>, <b>CSS</b>, <b>Javascript</b> and general web related topics.</p>
+    <div class="content-info">
+        <h2 class="content__title">About me</h2>
+        <p>A <b>Front-end web developer</b> from <b>Essex</b> who specialises working with mainly <b>HTML</b> and <b>CSS</b>. I have been in the web industry for nearly two years now working for a local marketing agency called <a href="http://www.stormcreative.co.uk/" target="_blank" class="content__link">Storm Creative</a> as part of the <a href="http://www.storm-digital.co.uk/" target="_blank" class="content__link">Storm Digital</a> team.</p>
+        <p>I studied <b>Bsc(Hons) Mulitmedia, animation and the web</b> at Anglia Ruskin University. Whilst there, I worked on a few web related projects for my degree where I found a passion for developing websites most interesting.</p>
+        <p>My other hobbies and interests lie primarily with anything sport related. I play for my local cricket team where I am vice captain, and also produced the club <a href="http://www.islandtavernerscc.co.uk" target="_blank" class="content__link">website</a>.</p>
+        <p>This website will be showcasing my skills as a developer and what I have learnt along the way. The best way to develop my skills is to encorporate a blog. The posts will be related to <b>HTML</b>, <b>CSS</b>, <b>Javascript</b> and general web related topics.</p>
+    </div>
+    <hr class="hr hr--grey" />
+    <h2 class="content__title">Latest blog posts</h2>
+    <div class="blog-posts grid">
+        {% for post in site.posts limit:6 %}
+        <article class="blog-box grid__third">
+            <a href="{{ BASE_PATH }}{{ post.url }}" class="blog-box-link">
+                <div class="blog-box-content blog-box-content--{{post.category}}">
+                    <h3 class="blog-box__title">{{post.title}}</h3>
+                    <p class="blog-box__post">
+                        <b class="blog-box__post-date"><time datetime="{{post.date | date: '%d/%m/%Y'}}">{{post.date | date_to_long_string}}</time></b>
+                        <b class="blog-box__post-cat">{{post.category}}</b>
+                    </p>
+                </div>
+            </a>
+        </article>
+        {% endfor %}
+        <a href="{{ BASE_PATH }}/blog.html">View more posts</a>
+        <hr class="hr hr--grey" />
+        <h2 class="content__title">Demos</h2>
+        <hr class="hr hr--grey" />
+        <h2 class="content__title">Projects</h2>
+    </div>
 </main>

@@ -1,0 +1,26 @@
+/**
+	
+	HORIZONTAL RULE
+
+----------------------*/
+
+.hr {
+	border: none;
+	display: block;
+	height: 2px;
+	margin: 1em auto;
+	width: 100%;
+
+	@include bp(tablet) {
+		margin: 2.5em auto;
+		width: 50%;
+	}
+}
+
+.hr--grey {
+	background: #C8C8C8;
+}
+
+.hr--gold {
+	background: $secondary-colour;
+}

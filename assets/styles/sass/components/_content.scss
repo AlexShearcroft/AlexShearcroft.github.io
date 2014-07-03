@@ -8,6 +8,14 @@
 	margin: auto;
 	max-width: $container-width;
 	padding: 1em;
+
+	@include bp(tablet) {
+		padding-bottom: 3em;
+	}
+}
+
+.content-info {
+	text-align: left;
 }
 
 .content__title {
@@ -16,6 +24,7 @@
 	font-size: 1.25em;
 	font-weight: normal;
 	letter-spacing: -0.01rem;
+	text-align: left;
 	text-transform: uppercase;
 
 	@include bp(tablet) {

@@ -13,12 +13,16 @@
 @import "mixins/retina";
 //@import "mixins/sprite";
 
+@import "framework/grid";
+
 @import "components/navigation";
 @import "components/header";
 @import "components/content";
 @import "components/footer";
 
+@import "elements/blog-box";
 @import "elements/gravatar";
+@import "elements/hr";
 
 * {
     @include box-sizing(border-box);
