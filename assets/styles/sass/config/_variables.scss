@@ -6,14 +6,14 @@ CONFIG = STYLES VARIABLES
 */
 
 // Colours
-$primary-colour: #000;
+$primary-colour: #000; //#2D2D2D;
 $secondary-colour: #B5985A;
 $font-colour: #4C4C4C;
 
 $css-colour: #B5985A;
 $html-colour: #A2A2A2;
 $javascript-colour: lighten(#806538, 5%);
-$generic-blog-colour: #000;
+$generic-blog-colour: #000; //#2D2D2D;
 
 $body-bg: #F5F4F1;
 
@@ -26,7 +26,7 @@ $line-height-ratio: 1.4;
 $grid-margin: 8px;
 
 // Nav settings
-$nav-colour: #000;
+$nav-colour: #000; //#2D2D2D;
 $nav-font-colour: #FFF;
 $nav-font-hover-colour: #B5985A;
 $nav-font: 'Montserrat';

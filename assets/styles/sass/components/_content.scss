@@ -18,7 +18,9 @@
 	text-align: left;
 }
 
-.content__title {
+.content__title,
+.content--posts h2,
+.content--posts h3 {
 	color: $primary-colour;
 	font-family: $title-font;
 	font-size: 1.25em;
@@ -32,7 +34,16 @@
 	}
 }
 
-.content__link {
+.content--posts h3 {
+	font-size: 18px;
+
+	@include bp(tablet) {
+		font-size: 21px;
+	}
+}
+
+.content__link,
+.content--posts a {
 	color: $secondary-colour;
 
 	@include transition(0.3s ease-in-out);
@@ -40,4 +51,9 @@
 	&:hover {
 		color: $font-colour;
 	}
+}
+
+.content__btn {
+	margin: 2em 0 1em;
+	text-align: center;
 }

@@ -21,13 +21,13 @@
         <link href="{{ BASE_PATH }}{{ site.JB.rss_path }}" type="application/rss+xml" rel="alternate" title="Sitewide RSS Feed">-->
     </head>
     <body>
-        {% include navigation %}
+        <!--{% include navigation %}-->
 
         {{ content }}
         
         <footer class="footer">
             <div class="footer-content">
-                <p class="footer__info">&copy; {{ site.time | date: '%Y' }} {{ site.author.alex.name }} &ndash; Built with <a href="http://jekyllrb.com/" target="_blank" class="footer__link">Jekyll</a> and hosted on <a href="https://github.com/{{site.author.alex.github}}/AlexShearcroft.github.io" target="_blank" class="footer__link">GitHub</a>.
+                <p class="footer__info">{{ site.author.alex.name }} production &ndash; Built with <a href="http://jekyllrb.com/" target="_blank" class="footer__link">Jekyll</a> and hosted on <a href="https://github.com/{{site.author.alex.github}}/AlexShearcroft.github.io" target="_blank" class="footer__link">GitHub</a>.
                 </p>
                 <ul class="footer-socials">
                     <li class="footer-socials__type">

@@ -6,13 +6,47 @@
 
 .header {
 	background: $primary-colour;
-	border-bottom: 4px solid $secondary-colour;
 	padding-bottom: 2em;
+	position: relative;
 	text-align: center;
 
 	@include bp(tablet) {
 		line-height: $header-height;
 		padding: $nav-height 0 0;
+	}
+
+	&:after {
+		background: $secondary-colour;
+		content: '';
+		height: 4px;
+		width: 0;
+
+		/* Positioning */
+		position: absolute;
+		bottom: 0;
+		left: 0;
+	}
+}
+
+.header--home {
+	@include bp(tablet) {
+		background: #000 url("#{$image-path}home-header.jpg") 95% 40px no-repeat;
+	}
+}
+
+.header--grow {
+	@include bp(tablet) {
+		height: 380px !important;
+
+		@include transition(height 2s);
+	}
+}
+
+.header--animate {
+	&:after {
+		width: 100%;
+
+		@include transition(width 2s);
 	}
 }
 
@@ -47,4 +81,9 @@
 	color: #FFF;
 	font-size: 1.5em; // 24px
 	margin: 0;
+}
+
+.header__title--alt,
+.header__info--alt {
+	@include opacity(0);
 }

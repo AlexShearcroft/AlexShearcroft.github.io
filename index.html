@@ -1,17 +1,17 @@
 ---
 layout: base
-title: Alex Shearcroft &ndash; Front-end web developer, Essex &ndash; HTML, CSS &amp; Javascript
+title: Alex Shearcroft &mdash; Front&ndash;end web developer, Essex &mdash; HTML, CSS &amp; Javascript
 page_title: home
 description: Test
 script: main
 ---
-<header class="header">
+<header class="js-header header header--home">
         <!--<span class="gravatar">
             <img class="gravatar-img" src="http://www.gravatar.com/avatar/d732de22ca38317ae3246315d49b66f4?s=144">
         </span>-->
     <div class="header-content">
-        <h1 class="header__title">Alex Shearcroft <b>Front-End Web Developer</b></h1>
-        <p class="header__info">23, Essex</p>
+        <h1 class="js-header-title header__title header__title--alt">Alex Shearcroft <b>Front&ndash;End Web Developer</b></h1>
+        <p class="js-header-subtitle header__info header__info--alt">23, Essex</p>
     </div>
 </header>
 <main class="content">
@@ -38,10 +38,10 @@ script: main
             </a>
         </article>
         {% endfor %}
-        <a href="{{ BASE_PATH }}/blog.html">View more posts</a>
-        <hr class="hr hr--grey" />
-        <h2 class="content__title">Demos</h2>
-        <hr class="hr hr--grey" />
-        <h2 class="content__title">Projects</h2>
+        {% if site.posts %}
+        <p class="content__btn">
+            <a href="{{ BASE_PATH }}/blog.html" class="btn">View all posts</a>
+        </p>
+        {% endif %}
     </div>
 </main>

@@ -20,6 +20,7 @@
 @import "components/content";
 @import "components/footer";
 
+@import "elements/buttons";
 @import "elements/blog-box";
 @import "elements/gravatar";
 @import "elements/hr";
@@ -119,3 +120,8 @@ h2 {
 	font-size: 1.3125em; // 21px
 }
 */
+
+#disqus_thread iframe #layout #discovery-top {
+	display: none !important;
+	visibility: hidden !important;
+}

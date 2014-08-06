@@ -1,0 +1,22 @@
+/**
+	
+	BUTTONS
+
+---------------*/
+
+.btn {
+	background: $font-colour;
+	border-bottom: 3px solid lighten($font-colour, 10%);
+	color: #FFF;
+	display: inline-block;
+	letter-spacing: normal;
+	padding: 0.625em 1em 0.5em;
+	text-align: center;
+	text-decoration: none;
+	@include transition(0.3s ease-in-out);
+
+	&:hover {
+		background: lighten($font-colour, 10%);
+		border-bottom: 3px solid $font-colour;	
+	}
+}

@@ -2543,6 +2543,7 @@ If you need to change the way a sector is styled then add a class and style that
   max-width: 64em;
   overflow: hidden;
   position: relative;
+  z-index: 1;
   /*
    * Examples of other breakpoints we could add:
    *
@@ -2560,7 +2561,7 @@ If you need to change the way a sector is styled then add a class and style that
   }
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/components\/_navigation\.scss}line{font-family:\0000320}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/components\/_navigation\.scss}line{font-family:\0000321}}
 .nav__icon {
   color: white;
   display: inline-block;
@@ -2578,18 +2579,18 @@ If you need to change the way a sector is styled then add a class and style that
    */
 }
 @media (min-width: 569px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/components\/_navigation\.scss}line{font-family:\0000320}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/components\/_navigation\.scss}line{font-family:\0000321}}
   .nav__icon {
     display: none;
   }
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/components\/_navigation\.scss}line{font-family:\0000333}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/components\/_navigation\.scss}line{font-family:\0000334}}
 .nav__icon--active {
   color: #b5985a;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/components\/_navigation\.scss}line{font-family:\0000337}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/components\/_navigation\.scss}line{font-family:\0000338}}
 .nav-links {
   background: black;
   border-bottom: 2px solid #b5985a;
@@ -2608,7 +2609,7 @@ If you need to change the way a sector is styled then add a class and style that
    */
 }
 @media (min-width: 569px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/components\/_navigation\.scss}line{font-family:\0000337}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/components\/_navigation\.scss}line{font-family:\0000338}}
   .nav-links {
     background: black;
     border-bottom: none;
@@ -2623,7 +2624,7 @@ If you need to change the way a sector is styled then add a class and style that
     top: 0;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/components\/_navigation\.scss}line{font-family:\0000360}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/components\/_navigation\.scss}line{font-family:\0000361}}
 .nav-links li {
   display: block;
   padding: 0.25em 1em;
@@ -2636,12 +2637,12 @@ If you need to change the way a sector is styled then add a class and style that
    * $bp-desktop: "(min-width: 1025px)";
    */
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/components\/_navigation\.scss}line{font-family:\0000365}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/components\/_navigation\.scss}line{font-family:\0000366}}
 .nav-links li.active a {
   color: #b5985a;
 }
 @media (min-width: 569px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/components\/_navigation\.scss}line{font-family:\0000360}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/components\/_navigation\.scss}line{font-family:\0000361}}
   .nav-links li {
     border-top: 2px solid transparent;
     display: inline-block;
@@ -2650,16 +2651,16 @@ If you need to change the way a sector is styled then add a class and style that
     padding: 0;
     vertical-align: middle;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/components\/_navigation\.scss}line{font-family:\0000378}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/components\/_navigation\.scss}line{font-family:\0000379}}
   .nav-links li:first-child {
     margin: 0;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/components\/_navigation\.scss}line{font-family:\0000382}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/components\/_navigation\.scss}line{font-family:\0000383}}
   .nav-links li.active {
     border-top: 2px solid #b5985a;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/components\/_navigation\.scss}line{font-family:\0000388}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/components\/_navigation\.scss}line{font-family:\0000389}}
 .nav-links a {
   color: white;
   font-family: "Montserrat";
@@ -2682,12 +2683,12 @@ If you need to change the way a sector is styled then add a class and style that
    */
 }
 @media (min-width: 569px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/components\/_navigation\.scss}line{font-family:\0000388}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/components\/_navigation\.scss}line{font-family:\0000389}}
   .nav-links a {
     font-size: 0.875em;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/components\/_navigation\.scss}line{font-family:\00003102}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/components\/_navigation\.scss}line{font-family:\00003103}}
 .nav-links a:hover {
   color: #b5985a;
 }
@@ -2700,8 +2701,8 @@ If you need to change the way a sector is styled then add a class and style that
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/components\/_header\.scss}line{font-family:\000037}}
 .header {
   background: black;
-  border-bottom: 4px solid #b5985a;
   padding-bottom: 2em;
+  position: relative;
   text-align: center;
   /*
    * Examples of other breakpoints we could add:
@@ -2719,8 +2720,70 @@ If you need to change the way a sector is styled then add a class and style that
     padding: 40px 0 0;
   }
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/components\/_header\.scss}line{font-family:\0000318}}
+.header:after {
+  background: #b5985a;
+  content: '';
+  height: 4px;
+  width: 0;
+  /* Positioning */
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/components\/_header\.scss}line{font-family:\0000319}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/components\/_header\.scss}line{font-family:\0000331}}
+.header--home {
+  /*
+   * Examples of other breakpoints we could add:
+   *
+   * $bp-kindle: "(min-width: 569px)";
+   * $bp-ipadport: "(min-width: 768px)";
+   * $bp-ipadland: "(min-width: 1024px)";
+   * $bp-desktop: "(min-width: 1025px)";
+   */
+}
+@media (min-width: 569px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/components\/_header\.scss}line{font-family:\0000331}}
+  .header--home {
+    background: black url("../images/home-header.jpg") 95% 40px no-repeat;
+  }
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/components\/_header\.scss}line{font-family:\0000337}}
+.header--grow {
+  /*
+   * Examples of other breakpoints we could add:
+   *
+   * $bp-kindle: "(min-width: 569px)";
+   * $bp-ipadport: "(min-width: 768px)";
+   * $bp-ipadland: "(min-width: 1024px)";
+   * $bp-desktop: "(min-width: 1025px)";
+   */
+}
+@media (min-width: 569px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/components\/_header\.scss}line{font-family:\0000337}}
+  .header--grow {
+    height: 380px !important;
+    -webkit-transition: height 2s;
+    -moz-transition: height 2s;
+    -ms-transition: height 2s;
+    -o-transition: height 2s;
+    transition: height 2s;
+  }
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/components\/_header\.scss}line{font-family:\0000346}}
+.header--animate:after {
+  width: 100%;
+  -webkit-transition: width 2s;
+  -moz-transition: width 2s;
+  -ms-transition: width 2s;
+  -o-transition: width 2s;
+  transition: width 2s;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/components\/_header\.scss}line{font-family:\0000353}}
 .header-content {
   display: inline-block;
   font-family: "Montserrat";
@@ -2733,7 +2796,7 @@ If you need to change the way a sector is styled then add a class and style that
   width: 100%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/components\/_header\.scss}line{font-family:\0000331}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/components\/_header\.scss}line{font-family:\0000365}}
 .header__title {
   color: #FFF;
   display: inline-block;
@@ -2742,18 +2805,25 @@ If you need to change the way a sector is styled then add a class and style that
   line-height: 1.2;
   vertical-align: middle;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/components\/_header\.scss}line{font-family:\0000339}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/components\/_header\.scss}line{font-family:\0000373}}
 .header__title b {
   color: #b5985a;
   display: block;
   font-weight: normal;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/components\/_header\.scss}line{font-family:\0000346}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/components\/_header\.scss}line{font-family:\0000380}}
 .header__info {
   color: #FFF;
   font-size: 1.5em;
   margin: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/components\/_header\.scss}line{font-family:\0000387}}
+.header__title--alt,
+.header__info--alt {
+  opacity: 0;
+  filter: alpha(opacity=0);
 }
 
 /**
@@ -2787,8 +2857,10 @@ If you need to change the way a sector is styled then add a class and style that
   text-align: left;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/components\/_content\.scss}line{font-family:\0000321}}
-.content__title {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/components\/_content\.scss}line{font-family:\0000323}}
+.content__title,
+.content--posts h2,
+.content--posts h3 {
   color: black;
   font-family: "Montserrat";
   font-size: 1.25em;
@@ -2806,14 +2878,36 @@ If you need to change the way a sector is styled then add a class and style that
    */
 }
 @media (min-width: 569px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/components\/_content\.scss}line{font-family:\0000321}}
-  .content__title {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/components\/_content\.scss}line{font-family:\0000323}}
+  .content__title,
+  .content--posts h2,
+  .content--posts h3 {
     font-size: 24px;
   }
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/components\/_content\.scss}line{font-family:\0000335}}
-.content__link {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/components\/_content\.scss}line{font-family:\0000337}}
+.content--posts h3 {
+  font-size: 18px;
+  /*
+   * Examples of other breakpoints we could add:
+   *
+   * $bp-kindle: "(min-width: 569px)";
+   * $bp-ipadport: "(min-width: 768px)";
+   * $bp-ipadland: "(min-width: 1024px)";
+   * $bp-desktop: "(min-width: 1025px)";
+   */
+}
+@media (min-width: 569px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/components\/_content\.scss}line{font-family:\0000337}}
+  .content--posts h3 {
+    font-size: 21px;
+  }
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/components\/_content\.scss}line{font-family:\0000346}}
+.content__link,
+.content--posts a {
   color: #b5985a;
   -webkit-transition: 0.3s ease-in-out;
   -moz-transition: 0.3s ease-in-out;
@@ -2821,9 +2915,16 @@ If you need to change the way a sector is styled then add a class and style that
   -o-transition: 0.3s ease-in-out;
   transition: 0.3s ease-in-out;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/components\/_content\.scss}line{font-family:\0000340}}
-.content__link:hover {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/components\/_content\.scss}line{font-family:\0000351}}
+.content__link:hover,
+.content--posts a:hover {
   color: #4c4c4c;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/components\/_content\.scss}line{font-family:\0000356}}
+.content__btn {
+  margin: 2em 0 1em;
+  text-align: center;
 }
 
 /**
@@ -2967,6 +3068,33 @@ If you need to change the way a sector is styled then add a class and style that
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/components\/_footer\.scss}line{font-family:\0000386}}
 .footer-socials__type a:hover {
   color: #383431;
+}
+
+/**
+	
+	BUTTONS
+
+---------------*/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/elements\/_buttons\.scss}line{font-family:\000037}}
+.btn {
+  background: #4c4c4c;
+  border-bottom: 3px solid #666666;
+  color: #FFF;
+  display: inline-block;
+  letter-spacing: normal;
+  padding: 0.625em 1em 0.5em;
+  text-align: center;
+  text-decoration: none;
+  -webkit-transition: 0.3s ease-in-out;
+  -moz-transition: 0.3s ease-in-out;
+  -ms-transition: 0.3s ease-in-out;
+  -o-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/elements\/_buttons\.scss}line{font-family:\0000318}}
+.btn:hover {
+  background: #666666;
+  border-bottom: 3px solid #4c4c4c;
 }
 
 /**
@@ -3200,14 +3328,14 @@ If you need to change the way a sector is styled then add a class and style that
   background: #b5985a;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/framework\/_structure\.scss}line{font-family:\0000327}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/framework\/_structure\.scss}line{font-family:\0000328}}
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/framework\/_structure\.scss}line{font-family:\0000332}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/framework\/_structure\.scss}line{font-family:\0000333}}
 html,
 body {
   background: #f5f4f1;
@@ -3218,7 +3346,7 @@ body {
   -webkit-font-smoothing: subpixel-antialiased;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/framework\/_structure\.scss}line{font-family:\0000342}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/framework\/_structure\.scss}line{font-family:\0000343}}
 .container {
   margin: auto;
   max-width: 64em;
@@ -3299,3 +3427,8 @@ h2 {
 	font-size: 1.3125em; // 21px
 }
 */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/framework\/_structure\.scss}line{font-family:\00003124}}
+#disqus_thread iframe #layout #discovery-top {
+  display: none !important;
+  visibility: hidden !important;
+}

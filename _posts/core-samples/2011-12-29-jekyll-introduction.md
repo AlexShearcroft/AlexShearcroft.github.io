@@ -1,8 +1,7 @@
 ---
-layout: base
+layout: post
 category : css
 tagline: "Supporting tagline"
-tags : [intro, beginner, jekyll, tutorial]
 ---
 {% include JB/setup %}
 
@@ -62,7 +61,7 @@ Therefore if you like to keep things simple and you prefer the command-line over
 - Ability to host freely on GitHub Pages.
 - No database required.
 
-# How Jekyll Works
+## How Jekyll Works
 
 The following is a complete but concise outline of exactly how Jekyll works.
 
