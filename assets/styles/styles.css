@@ -2251,7 +2251,7 @@ If you need to change the way a sector is styled then add a class and style that
    * $bp-desktop: "(min-width: 1025px)";
    */
 }
-@media (min-width: 960px) {
+@media (min-width: 769px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/framework\/_grid\.scss}line{font-family:\0000320}}
   [class*='grid__'] {
     display: inline-block;
@@ -2269,7 +2269,7 @@ If you need to change the way a sector is styled then add a class and style that
    * $bp-desktop: "(min-width: 1025px)";
    */
 }
-@media (min-width: 960px) {
+@media (min-width: 769px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/framework\/_grid\.scss}line{font-family:\0000335}}
   .grid__half {
     width: 50%;
@@ -2287,7 +2287,7 @@ If you need to change the way a sector is styled then add a class and style that
    * $bp-desktop: "(min-width: 1025px)";
    */
 }
-@media (min-width: 960px) {
+@media (min-width: 769px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/framework\/_grid\.scss}line{font-family:\0000343}}
   .grid__third {
     width: 33.33333%;
@@ -2305,7 +2305,7 @@ If you need to change the way a sector is styled then add a class and style that
    * $bp-desktop: "(min-width: 1025px)";
    */
 }
-@media (min-width: 960px) {
+@media (min-width: 769px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/framework\/_grid\.scss}line{font-family:\0000350}}
   .grid__two-third {
     width: 66.66666%;
@@ -2323,7 +2323,7 @@ If you need to change the way a sector is styled then add a class and style that
    * $bp-desktop: "(min-width: 1025px)";
    */
 }
-@media (min-width: 960px) {
+@media (min-width: 769px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/framework\/_grid\.scss}line{font-family:\0000358}}
   .grid__quarter {
     width: 25%;
@@ -2341,7 +2341,7 @@ If you need to change the way a sector is styled then add a class and style that
    * $bp-desktop: "(min-width: 1025px)";
    */
 }
-@media (min-width: 960px) {
+@media (min-width: 769px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/framework\/_grid\.scss}line{font-family:\0000365}}
   .grid__three-quarter {
     width: 75%;
@@ -2359,7 +2359,7 @@ If you need to change the way a sector is styled then add a class and style that
    * $bp-desktop: "(min-width: 1025px)";
    */
 }
-@media (min-width: 960px) {
+@media (min-width: 769px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/framework\/_grid\.scss}line{font-family:\0000373}}
   .grid__fifth {
     width: 20%;
@@ -2377,7 +2377,7 @@ If you need to change the way a sector is styled then add a class and style that
    * $bp-desktop: "(min-width: 1025px)";
    */
 }
-@media (min-width: 960px) {
+@media (min-width: 769px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/framework\/_grid\.scss}line{font-family:\0000380}}
   .grid__two-fifth {
     width: 40%;
@@ -2395,7 +2395,7 @@ If you need to change the way a sector is styled then add a class and style that
    * $bp-desktop: "(min-width: 1025px)";
    */
 }
-@media (min-width: 960px) {
+@media (min-width: 769px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/framework\/_grid\.scss}line{font-family:\0000387}}
   .grid__three-fifth {
     width: 60%;
@@ -2413,7 +2413,7 @@ If you need to change the way a sector is styled then add a class and style that
    * $bp-desktop: "(min-width: 1025px)";
    */
 }
-@media (min-width: 960px) {
+@media (min-width: 769px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/framework\/_grid\.scss}line{font-family:\0000394}}
   .grid__four-fifth {
     width: 80%;
@@ -2732,8 +2732,16 @@ If you need to change the way a sector is styled then add a class and style that
   left: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/components\/_header\.scss}line{font-family:\0000331}}
-.header--home {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/components\/_header\.scss}line{font-family:\0000332}}
+.header--home .header-bg {
+  /*
+   * Examples of other breakpoints we could add:
+   *
+   * $bp-kindle: "(min-width: 569px)";
+   * $bp-ipadport: "(min-width: 768px)";
+   * $bp-ipadland: "(min-width: 1024px)";
+   * $bp-desktop: "(min-width: 1025px)";
+   */
   /*
    * Examples of other breakpoints we could add:
    *
@@ -2744,13 +2752,22 @@ If you need to change the way a sector is styled then add a class and style that
    */
 }
 @media (min-width: 569px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/components\/_header\.scss}line{font-family:\0000331}}
-  .header--home {
-    background: black url("../images/home-header.jpg") 95% 40px no-repeat;
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/components\/_header\.scss}line{font-family:\0000332}}
+  .header--home .header-bg {
+    background: black url("../images/home-header.jpg") 200% 0 no-repeat;
+    height: 100%;
+    margin: auto;
+    max-width: 64em;
+  }
+}
+@media (min-width: 769px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/components\/_header\.scss}line{font-family:\0000332}}
+  .header--home .header-bg {
+    background-position: 100% 0;
   }
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/components\/_header\.scss}line{font-family:\0000337}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/components\/_header\.scss}line{font-family:\0000346}}
 .header--grow {
   /*
    * Examples of other breakpoints we could add:
@@ -2762,7 +2779,7 @@ If you need to change the way a sector is styled then add a class and style that
    */
 }
 @media (min-width: 569px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/components\/_header\.scss}line{font-family:\0000337}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/components\/_header\.scss}line{font-family:\0000346}}
   .header--grow {
     height: 380px !important;
     -webkit-transition: height 2s;
@@ -2773,7 +2790,7 @@ If you need to change the way a sector is styled then add a class and style that
   }
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/components\/_header\.scss}line{font-family:\0000346}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/components\/_header\.scss}line{font-family:\0000355}}
 .header--animate:after {
   width: 100%;
   -webkit-transition: width 2s;
@@ -2783,7 +2800,7 @@ If you need to change the way a sector is styled then add a class and style that
   transition: width 2s;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/components\/_header\.scss}line{font-family:\0000353}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/components\/_header\.scss}line{font-family:\0000362}}
 .header-content {
   display: inline-block;
   font-family: "Montserrat";
@@ -2796,7 +2813,7 @@ If you need to change the way a sector is styled then add a class and style that
   width: 100%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/components\/_header\.scss}line{font-family:\0000365}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/components\/_header\.scss}line{font-family:\0000374}}
 .header__title {
   color: #FFF;
   display: inline-block;
@@ -2805,21 +2822,21 @@ If you need to change the way a sector is styled then add a class and style that
   line-height: 1.2;
   vertical-align: middle;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/components\/_header\.scss}line{font-family:\0000373}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/components\/_header\.scss}line{font-family:\0000382}}
 .header__title b {
   color: #b5985a;
   display: block;
   font-weight: normal;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/components\/_header\.scss}line{font-family:\0000380}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/components\/_header\.scss}line{font-family:\0000389}}
 .header__info {
   color: #FFF;
   font-size: 1.5em;
   margin: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/components\/_header\.scss}line{font-family:\0000387}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/components\/_header\.scss}line{font-family:\0000396}}
 .header__title--alt,
 .header__info--alt {
   opacity: 0;

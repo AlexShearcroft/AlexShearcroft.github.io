@@ -29,8 +29,17 @@
 }
 
 .header--home {
-	@include bp(tablet) {
-		background: #000 url("#{$image-path}home-header.jpg") 95% 40px no-repeat;
+	.header-bg {
+		@include bp(tablet) {
+			background: #000 url("#{$image-path}home-header.jpg") 200% 0 no-repeat;
+			height: 100%;
+			margin: auto;
+			max-width: $container-width;
+		}
+
+		@include bp(desktop) {
+			background-position: 100% 0;
+		}
 	}
 }
 

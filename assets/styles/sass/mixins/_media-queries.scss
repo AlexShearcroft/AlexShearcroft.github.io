@@ -29,7 +29,7 @@ For more documentation check out: http://css-tricks.com/conditional-media-query-
 		// Our desktop styles start from this size as the max mobile width is 568px (iphone 5 landscape)
 		$bp-mobile: "(max-width: 568px)";
 		$bp-tablet: "(min-width: 569px)"; 
-		$bp-desktop: "(min-width: 960px)"; 
+		$bp-desktop: "(min-width: 769px)"; 
 
 		@if $point == mobile {
 			@media #{$bp-mobile} { @content; }
