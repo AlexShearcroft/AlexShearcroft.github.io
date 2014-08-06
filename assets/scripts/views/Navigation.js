@@ -6,6 +6,7 @@ define(['Backbone','../modules/toggles'], function(Backbone, Toggles){
             this.tog = new Toggles();
 
             if ($(window).width() >= 569) {
+                $('body').fadeIn(800);
                 $('.js-header').css('height', $(window).height() + 'px');
             }
 
@@ -14,22 +15,22 @@ define(['Backbone','../modules/toggles'], function(Backbone, Toggles){
                     'opacity': '1',
                     'filter': 'alpha(opacity=100)'
                 }, 1500);
-            }, 400);
+            }, 600);
 
             setTimeout(function(){
                 $('.js-header').addClass('header--grow');
-            }, 3800);
+            }, 4000);
 
             setTimeout(function(){
                 $('.js-header-subtitle').animate({
                     'opacity': '1',
                     'filter': 'alpha(opacity=100)'
                 }, 1500);
-            }, 1200);
+            }, 1400);
 
             setTimeout(function(){
                 $('.js-header').addClass('header--animate');
-            }, 1800);
+            }, 2000);
 
         },
         

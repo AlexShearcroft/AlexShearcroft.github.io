@@ -3347,6 +3347,16 @@ body {
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/framework\/_structure\.scss}line{font-family:\0000343}}
+html {
+  background: #000;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/framework\/_structure\.scss}line{font-family:\0000347}}
+body {
+  display: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/framework\/_structure\.scss}line{font-family:\0000351}}
 .container {
   margin: auto;
   max-width: 64em;
@@ -3427,7 +3437,7 @@ h2 {
 	font-size: 1.3125em; // 21px
 }
 */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/framework\/_structure\.scss}line{font-family:\00003124}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/framework\/_structure\.scss}line{font-family:\00003132}}
 #disqus_thread iframe #layout #discovery-top {
   display: none !important;
   visibility: hidden !important;

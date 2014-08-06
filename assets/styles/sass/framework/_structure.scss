@@ -40,6 +40,14 @@ body {
 	  -webkit-font-smoothing: subpixel-antialiased; // makes the font smooth on webkit devices
 }
 
+html {
+	background: #000;
+}
+
+body {
+	display: none;
+}
+
 .container {
 	margin: auto;
 	max-width: $container-width;
