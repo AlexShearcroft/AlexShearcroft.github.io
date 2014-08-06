@@ -44,8 +44,10 @@ html {
 	background: #000;
 }
 
-body {
-	display: none;
+.home-body {
+	@include bp(tablet) {
+		display: none;
+	}
 }
 
 .container {

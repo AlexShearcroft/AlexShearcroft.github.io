@@ -3352,11 +3352,24 @@ html {
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/framework\/_structure\.scss}line{font-family:\0000347}}
-body {
-  display: none;
+.home-body {
+  /*
+   * Examples of other breakpoints we could add:
+   *
+   * $bp-kindle: "(min-width: 569px)";
+   * $bp-ipadport: "(min-width: 768px)";
+   * $bp-ipadland: "(min-width: 1024px)";
+   * $bp-desktop: "(min-width: 1025px)";
+   */
+}
+@media (min-width: 569px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/framework\/_structure\.scss}line{font-family:\0000347}}
+  .home-body {
+    display: none;
+  }
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/framework\/_structure\.scss}line{font-family:\0000351}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/framework\/_structure\.scss}line{font-family:\0000353}}
 .container {
   margin: auto;
   max-width: 64em;
@@ -3437,7 +3450,7 @@ h2 {
 	font-size: 1.3125em; // 21px
 }
 */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/framework\/_structure\.scss}line{font-family:\00003132}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/alexshearcroft\/Dropbox\/Sites\/AlexShearcroft\.github\.io\/assets\/styles\/sass\/framework\/_structure\.scss}line{font-family:\00003134}}
 #disqus_thread iframe #layout #discovery-top {
   display: none !important;
   visibility: hidden !important;

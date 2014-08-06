@@ -6,7 +6,7 @@ define(['Backbone','../modules/toggles'], function(Backbone, Toggles){
             this.tog = new Toggles();
 
             if ($(window).width() >= 569) {
-                $('body').fadeIn(800);
+                $('.home-body').fadeIn(800);
                 $('.js-header').css('height', $(window).height() + 'px');
             }
 
