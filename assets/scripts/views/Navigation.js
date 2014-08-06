@@ -7,6 +7,7 @@ define(['Backbone','../modules/toggles'], function(Backbone, Toggles){
 
             if ($(window).width() >= 569) {
                 $('.home-body').fadeIn(800);
+                $('.home-body').css('overflow', 'hidden');
                 $('.js-header').css('height', $(window).height() + 'px');
             }
 
@@ -19,6 +20,10 @@ define(['Backbone','../modules/toggles'], function(Backbone, Toggles){
 
             setTimeout(function(){
                 $('.js-header').addClass('header--grow');
+
+                if ($(window).width() >= 569) {
+                    $('.home-body').css('overflow', 'visible');
+                }
             }, 4000);
 
             setTimeout(function(){
