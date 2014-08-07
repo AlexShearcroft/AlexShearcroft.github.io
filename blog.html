@@ -6,12 +6,12 @@ description: Test
 group: navigation
 script: main
 ---
-<header class="header">
+<header class="header header--animate">
     <div class="header-content">
-        <h1 class="header__title">HTML, CSS, Javascript &amp; <b>miscellaneous blog posts</b></h1>
+        <h1 class="header__title">HTML, CSS, Javascript <b>&amp; personal blog posts</b></h1>
     </div>
 </header>
-<main class="content">
+<section class="content">
     <div class="blog-posts grid">
         {% for post in site.posts %}
         <article class="blog-box grid__third">
@@ -26,60 +26,5 @@ script: main
             </a>
         </article>
         {% endfor %}
-        <article class="blog-box grid__third">
-            <a href="#" class="blog-box-link">
-                <div class="blog-box-content blog-box-content--html">
-                    <h3 class="blog-box__title">Blog post title example could be this long</h3>
-                    <p class="blog-box__post">
-                        <b class="blog-box__post-date">03/07/14</b>
-                        <b class="blog-box__post-cat">HTML</b>
-                    </p>
-                </div>
-            </a>
-        </article>
-        <article class="blog-box grid__third">
-            <a href="#" class="blog-box-link">
-                <div class="blog-box-content blog-box-content--jscript">
-                    <h3 class="blog-box__title">Blog post title example could be this long</h3>
-                    <p class="blog-box__post">
-                        <b class="blog-box__post-date">03/07/14</b>
-                        <b class="blog-box__post-cat">Javascript</b>
-                    </p>
-                </div>
-            </a>
-        </article>
-        <article class="blog-box grid__third">
-            <a href="#" class="blog-box-link">
-                <div class="blog-box-content">
-                    <h3 class="blog-box__title">Blog post title example could be this long</h3>
-                    <p class="blog-box__post">
-                        <b class="blog-box__post-date">03/07/14</b>
-                        <b class="blog-box__post-cat">Generic</b>
-                    </p>
-                </div>
-            </a>
-        </article>
-        <article class="blog-box grid__third">
-            <a href="#" class="blog-box-link">
-                <div class="blog-box-content">
-                    <h3 class="blog-box__title">Blog post title example could be this long</h3>
-                    <p class="blog-box__post">
-                        <b class="blog-box__post-date">03/07/14</b>
-                        <b class="blog-box__post-cat">Generic</b>
-                    </p>
-                </div>
-            </a>
-        </article>
-        <article class="blog-box grid__third">
-            <a href="#" class="blog-box-link">
-                <div class="blog-box-content blog-box-content--css">
-                    <h3 class="blog-box__title">Blog post title example could be this long</h3>
-                    <p class="blog-box__post">
-                        <b class="blog-box__post-date">03/07/14</b>
-                        <b class="blog-box__post-cat">CSS</b>
-                    </p>
-                </div>
-            </a>
-        </article>
     </div>
-</main>
+</section>
