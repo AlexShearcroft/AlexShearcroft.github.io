@@ -43,6 +43,7 @@
 	list-style: none;
 	margin: 0;
 	padding: 0.25em 0 0.5em;
+	width: 100%;
 
 	@include bp(tablet) {
 		background: $primary-colour;
@@ -52,9 +53,11 @@
 		line-height: $nav-height;
 		margin: 0;
 		padding: 0 1em;
+		text-align: right;
+
+		// Positioning
 		position: absolute;
 		right: 0;
-		text-align: right;
 		top: 0;
 	}
 

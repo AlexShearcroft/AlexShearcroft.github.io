@@ -1,0 +1,22 @@
+/**
+	
+	BAR
+
+---------------*/
+
+.bar {
+	padding: 2em;
+	text-align: center;
+}
+
+.bar--blog {
+	//background: url("#{$image-path}bg-blog-bar.jpg") center center no-repeat fixed;
+	//background-size: cover;
+	background: #A1A1A1;
+}
+
+.bar__title {
+	@extend .content__title;
+	color: #FFF;
+	text-align: center;
+}

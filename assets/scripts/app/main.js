@@ -11,6 +11,7 @@ requirejs.config({
     }
 });
 
-require(['../views/Navigation'], function(Navigation) {
-    var nav = new Navigation();
+require(['../views/Navigation', '../modules/home-load'], function(Navigation, HomeLoad) {
+    var Navigation = new Navigation(),
+        HomeLoad = new HomeLoad();
 });
